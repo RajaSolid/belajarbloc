@@ -35,7 +35,6 @@ class _BangunDatarPageState extends State<BangunDatarPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            // Bagian atas: input, tombol, hasil
             Column(
               children: [
                 Row(
@@ -95,7 +94,6 @@ class _BangunDatarPageState extends State<BangunDatarPage> {
                 ),
               ],
             ),
-            // Tombol reset di bawah
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
